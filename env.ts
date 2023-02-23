@@ -56,9 +56,7 @@ export const { CLOUDINARY_URL } = parseEnv(process.env, {
 console.log([CLOUDINARY_URL].join(", "))
 
 
-/*
-robots.txt
-
+/* robots.txt
 User-agent: Googlebot
 Disallow: /nogooglebot/
 
