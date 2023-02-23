@@ -52,9 +52,7 @@ export const { API_SERVER, HOST, PORT, EDITORS, POST_LIMIT, AUTH_SERVER } =
 export const { CLOUDINARY_URL } = parseEnv(process.env, {
   CLOUDINARY_URL: z.string().min(1),
 })
-// LLAMA_COUNT: z.number().int().positive(),
-//   COLOR: z.enum(["red", "blue"]),
-//     SHINY: z.boolean().default(true), 
+
 console.log([CLOUDINARY_URL].join(", "))
 
 
